@@ -3,6 +3,7 @@ div {
   float:left;
   color:black;
 }
+
 #body {
   width:100%;
   height:700px;
@@ -12,6 +13,11 @@ div {
 
 @media (min-width: 960px){
 
+  body{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
   div {
     float:left;
     color:black;
@@ -22,7 +28,7 @@ div {
     text-align: center;
   }
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
 
   div {
     float:left;
